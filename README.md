@@ -4,6 +4,17 @@ A simple JavaFX login form with a username, password, and country calling-code
 field. Typing a supported East African calling code shows its flag and country
 name. The login is a demo only and does not check a real account.
 
+## What the finished app does
+
+The app opens a small window with username, password, and country-code fields.
+As you type a supported calling code (for example, `+254`), the country's flag
+and name appear immediately. Select **Log in** to see a message if a field is
+missing or the country code is not supported. If the inputs are filled in, the
+app displays a demo message; it does not verify the username or password.
+
+The Java source includes comments explaining the main JavaFX controls, how
+country lookup works, and what happens when you press the login button.
+
 ## Requirements
 
 - Eclipse IDE 2026-09 (4.41.0) with the **Eclipse IDE for Java Developers**
