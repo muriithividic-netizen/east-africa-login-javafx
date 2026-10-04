@@ -1,8 +1,8 @@
-# Medlife East Africa Login
+# East Africa Login
 
-A small JavaFX sign-in screen with live country-flag lookup for East African
-calling codes. The sign-in is a UI demo only; it does not authenticate against
-or store account credentials.
+A simple JavaFX login form with a username, password, and country calling-code
+field. Typing a supported East African calling code shows its flag and country
+name. The login is a demo only and does not check a real account.
 
 ## Requirements
 
@@ -19,6 +19,9 @@ or store account credentials.
 3. Finish the import and allow Maven to resolve the dependencies.
 4. Right-click the project and select **Run As > Maven build...**.
 5. Enter `javafx:run` as the goal and select **Run**.
+
+Alternatively, open `LoginApplication.java` and run it as a Java application
+after Maven has downloaded the project dependencies.
 
 You can also run the test suite with the Maven goal `test`.
 
