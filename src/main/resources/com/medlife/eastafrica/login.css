@@ -1,0 +1,95 @@
+.page {
+    -fx-background-color: linear-gradient(to bottom right, #eff8f4, #e5f0ff);
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(20, 45, 68, 0.13), 28, 0.18, 0, 10);
+}
+
+.brand {
+    -fx-text-fill: #167c62;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 2px;
+}
+
+.title {
+    -fx-text-fill: #172b3a;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #71808d;
+    -fx-font-size: 14px;
+}
+
+.form {
+    -fx-padding: 18 0 0 0;
+}
+
+.field-label {
+    -fx-text-fill: #344554;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.input {
+    -fx-background-color: #f7f9fb;
+    -fx-background-radius: 9;
+    -fx-border-color: #dce4ea;
+    -fx-border-radius: 9;
+    -fx-padding: 12;
+    -fx-font-size: 14px;
+}
+
+.input:focused {
+    -fx-background-color: white;
+    -fx-border-color: #21866d;
+    -fx-border-width: 1.5;
+}
+
+.country-result {
+    -fx-padding: 5 0 8 1;
+    -fx-font-size: 14px;
+}
+
+.country-placeholder {
+    -fx-text-fill: #8996a1;
+}
+
+.country-valid {
+    -fx-text-fill: #176b55;
+    -fx-font-weight: bold;
+}
+
+.country-invalid,
+.message-error {
+    -fx-text-fill: #b43f3f;
+}
+
+.login-button {
+    -fx-background-color: #187c63;
+    -fx-background-radius: 9;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 13;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #12664f;
+}
+
+.message {
+    -fx-min-height: 22;
+    -fx-font-size: 12px;
+}
+
+.message-success {
+    -fx-text-fill: #176b55;
+}
